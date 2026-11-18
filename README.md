@@ -33,17 +33,17 @@ Then open the local address it prints in your browser.
 
 All the words on the page live in one file: `src/content/profile.ts`.
 
-| Field | What it is |
-| --- | --- |
-| `greeting`, `name` | The headline above the portrait. |
-| `roles` | Short labels shown under your name, such as your title, field and city. |
-| `email`, `availability` | Shown on the Contact tab. |
-| `about.bio` | Two or three sentences about you. |
-| `about.focus` | Skills or topics, shown as tags. |
-| `about.stats` | Three numbers with labels, such as years of experience. |
-| `work` | Projects or highlights. Each has a year, title, summary, tags and an optional link (`href`; use `"#"` for none). |
-| `journey` | Your roles over time: period, role and organisation. |
-| `links` | Buttons on the Contact tab, such as LinkedIn or GitHub. |
+| Field                   | What it is                                                                                                       |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `greeting`, `name`      | The headline above the portrait.                                                                                 |
+| `roles`                 | Short labels shown under your name, such as your title, field and city.                                          |
+| `email`, `availability` | Shown on the Contact tab.                                                                                        |
+| `about.bio`             | Two or three sentences about you.                                                                                |
+| `about.focus`           | Skills or topics, shown as tags.                                                                                 |
+| `about.stats`           | Three numbers with labels, such as years of experience.                                                          |
+| `work`                  | Projects or highlights. Each has a year, title, summary, tags and an optional link (`href`; use `"#"` for none). |
+| `journey`               | Your roles over time: period, role and organisation.                                                             |
+| `links`                 | Buttons on the Contact tab, such as LinkedIn or GitHub.                                                          |
 
 ### 2. Your photo
 
@@ -59,14 +59,14 @@ Update the `title` and `description` meta tags in `src/routes/index.tsx` and `sr
 
 ## Scripts
 
-| Command | What it does |
-| --- | --- |
-| `bun run dev` | Start the local dev server. |
-| `bun run build` | Build for production. |
-| `bun run preview` | Preview the production build. |
-| `bun run test` | Run the tests. |
-| `bun run lint` | Check the code with ESLint. |
-| `bun run format` | Format the code with Prettier. |
+| Command           | What it does                   |
+| ----------------- | ------------------------------ |
+| `bun run dev`     | Start the local dev server.    |
+| `bun run build`   | Build for production.          |
+| `bun run preview` | Preview the production build.  |
+| `bun run test`    | Run the tests.                 |
+| `bun run lint`    | Check the code with ESLint.    |
+| `bun run format`  | Format the code with Prettier. |
 
 ## Deploying
 
